@@ -14,6 +14,13 @@ body
 /*PER FER QUE LA IMATGE OCUPI TOT + FER QUE LA IMATGE SEMPRE SIGUI VISIBLE AL 100% */
 
 
+model-viewer
+{
+
+	width: 50%;
+	height: 50%;
+}
+
 .inici
 {
     display: flex;
