@@ -12,7 +12,12 @@ body
 
 
 /*PER FER QUE LA IMATGE OCUPI TOT + FER QUE LA IMATGE SEMPRE SIGUI VISIBLE AL 100% */
+model-viewer
+{
+	width 500px;
+	height 100%;
 
+}
 
 .inici
 {
