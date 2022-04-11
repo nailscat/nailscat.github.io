@@ -2,29 +2,138 @@ body
 {
 	 
 	background-color: 202020;
-	
-
+    overflow-x: hidden;
+    margin: 0px;
 
 }
+
+
+
 /***********************************************************************************/
 /*                              PAGINA PRINCIPAL                                   */
 /***********************************************************************************/
 
 
 /*PER FER QUE LA IMATGE OCUPI TOT + FER QUE LA IMATGE SEMPRE SIGUI VISIBLE AL 100% */
-model-viewer
+
+
+
+
+
+.menu_txt
 {
-	width 500px;
-	height 100%;
+ 
+    color: whitesmoke;
 
 }
 
-model-viewer
+.menu_bar
+{
+    
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+
+
+    position: fixed;
+    padding-bottom: 25px;
+    flex-direction: row-reverse;
+
+
+
+
+}
+
+
+.menu_options
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+
+}
+
+
+#menu_item_color_a
 {
 
-	width: 50%;
-	height: 50%;
+    background-color: black;
+
 }
+#menu_item_color_b
+{
+
+    background-color: purple;
+
+}
+#menu_item_color_c
+{
+
+    background-color: red;
+
+}
+
+.menu_item_container
+{
+    display: flex;
+    height: 300px;
+    transform: translate(0px, -250px);
+    transition-duration: 0.4s;
+    justify-content: center;
+    width: 200px;
+
+
+}
+
+.menu_item_container:hover, :focus 
+{
+    transform: translate(0px, 0px);
+
+
+
+
+
+}
+
+.menu_deploy:hover
+{
+     background-color: transparent;
+
+    
+} 
+
+
+.menu_deploy 
+{
+    padding: 40px;
+    display: flex;
+   
+    flex-flow: wrap;
+
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+
+    width: 100px;
+
+    text-decoration: none;
+    height: 150px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .inici
 {
@@ -33,15 +142,21 @@ model-viewer
 	font-family: Amatic SC;
 	color: whitesmoke;
 
+    
+    justify-self: center;
 
     height: 100%;
 
+
     background-color: ffcb77; /*per si no apareix la imatge afageixo color*/
-    padding: 12px;
+    
+
+
     
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+
 
 
     background-repeat: no-repeat;
@@ -58,7 +173,7 @@ model-viewer
 #lobby_img
 {
 
-    background-image: url(../images/caca.jpg);
+    background-image: url(../images/bg.png);
   
 
 }
@@ -72,27 +187,43 @@ model-viewer
 
     display: flex;
     font-family: 'Quicksand';
-    margin: 25px auto;
+   
     padding: 25px;
 
-    max-width: 320px;
-    min-width: 500px;
+    max-width: 500px;
+    max-width: 500px;
 
+    min-width: 100px;
+    min-height: 100px;
+
+    width: 500px;
     height: 500px;
     border: 1px solid black;
-    background: rgba(245,245,245,0.77);
+    
 
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: whitesmoke;
 
-    
+
+    flex-direction: row;
+
+
+}
+
+
+
+
+.img_bg_color
+{
+
+
+
+    background-color:tomato;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    
-
 
 
 }
@@ -105,12 +236,14 @@ model-viewer
 {
     background-image: url(../images/moneda.png);
 
+
 }
 
 #img_pag_2
 {
-    background-image: url(../images/caca.jpg);
+    background-image: url(../images/bg.png);
 
+ 
 }
 
 #img_pag_3
@@ -126,47 +259,85 @@ model-viewer
 
 
 
-
-
-.pagines:hover
+.zoom:focus 
 {
-    background-color: lightsalmon;
+
+    transform: scale(1.2);
+
+
+   
+}
+
+.zoom:focus .pagines
+{
+
+    opacity: 0%;
+}
+
+.zoom
+{
     transition-duration: 0.4s;
 
 
 }
+
+
+.pagines:hover .txt
+{
+    opacity: 100%;
+
+}
+
+/*quan es fa el hover el BG enfosqueix*/
+
+.pagines:hover
+{
+    background-color:rgba(0, 0, 0, 0.6);
+    
+    transition-duration: 0.4s;
+
+
+}
+
+/*quan es fa un hover apareix el text*/
 
 .pagines:hover .txt_img
 {
 
-    opacity: 100%;
-    transition-duration: 0.4s;
-
-    display: flex;
-    
    
+
+    opacity: 100%;
+
+
+
 }
 
 
+
+/*estat inicial del text que apareix a sobre de la imatge*/
 .txt_img
 {
-    display: none;
-    opacity: 100%;
-
+    opacity: 0%;
+     transition-duration: 0.4s;
 
     max-width: 500px;
-    min-width: 320px;
-
-    height: 300px;
-
-    
+    min-width: 100px;
 
    
-
     word-break: break-all;
+
 
 }
 
+
+.txt
+{
+
+    opacity: 0%;
+    transition-duration: 0.4s;
+}
+
+/****************************/
 
 
 
@@ -176,7 +347,11 @@ model-viewer
     flex-flow: wrap;
     justify-content: center;
     gap: 50px;
-    flex-grow: 1;
+    padding: 25px;
+    
+
+
+
 
 
 }
@@ -210,54 +385,183 @@ model-viewer
 
 
 
+.mdl_view
+{
 
-#containers_images
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0px;
+    flex-flow: inherit;
+    width: 100%;
+
+}
+
+
+#view
 {
     display: flex;
-    font-family: 'Quicksand';
-    margin: 25px auto;
-    padding: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: 202020;
 
-    max-width: 320px;
-    min-width: 500px;
 
-    height: 500px;
-    border: 1px solid black;
-    background: rgba(245,245,245,0.77);
+}
 
-    justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************/
+/*MEDIA QUERIES*/
+/***************/
+
+@media only screen and (max-width: 500px)
+{
+
+
+    .menu_bar
+    {
+    
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+
+
+    position: fixed;
+    padding-bottom: 25px;
+    flex-direction: row-reverse;
+
+
+
+
+    }
+
+    .menu_item_container
+    {
+
+   
+    height: 100px;
+    transform: translate(200px, 0px);
+    padding-left: 30px;
     align-items: center;
-    text-decoration: none;
-    color: whitesmoke;
+    
+
+
+    }
+
+
+    .menu_bar
+    {
+    
+
+    flex-direction: column;
 
 
 
 
+    }
+
+    .menu_options
+    {
+
+    flex-direction: inherit;
+    align-items: flex-end;
+    
 
 
-
-    background-image: url(../images/caca.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-
-
+    }
 
 }
 
 
-
-
-.cont_img
+@media only screen and (max-width: 800px)
 {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    gap: 50px;
-    flex-grow: 1;
+    .pagines
+    {
+
+        width: 150px;
+        height: 150px;
+  
+    }
+
+    #containers
+    {
+  
+        gap: 5px;
+        justify-content: flex-start;
+
+    }
+
+    .inici
+    {
+
+        height: 75%;
+       
+    }
+
+
 
 }
 
+
+
+@media only screen and (max-width: 1280px)
+{
+
+    .pagines
+    {
+
+        width: 350px;
+        height: 350px;
+
+    }
+
+    #containers
+    {
+  
+        gap: 10px;
+        flex-flow: nowrap;
+        overflow: scroll;
+      
+        overflow-y: hidden;
+
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+
+    }
+
+    .inici
+    {
+
+        overflow: hidden;
+
+    }
+
+    #containers::-webkit-scrollbar
+    {
+        display: none;
+
+    }
+
+}
+
+/***************/
+/*MEDIA QUERIES*/
+/***************/
 
 
 

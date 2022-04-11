@@ -3,13 +3,75 @@
 		<title>Projectes Destacats</title>
 		<meta charset=”utf-8”>
 		<link rel="stylesheet" href="../css/style.css">
+		<script src="../code/java.js"></script>
+
+		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+
 
 	</head>
 
 
 	<body>
 
-		<!--div per colocar la imatge que ocupi tota la pantalla, dintre del CSS es veu com esta fet><!-->
+	
+		<!--**********************************!-->
+		<!--MENU, part de sobre de la pantalla!-->
+		<!--**********************************!-->
+
+		<header class="menu_bar" tabindex="1">
+
+
+		<div class="menu_options">
+
+			<div id="menu_item_color_a" class="menu_item_container" tabindex="1">
+				
+				<a href="../index.html" class="menu_deploy">
+					
+						<h1 class="menu_txt">HOME</h1>
+				
+				</a>
+
+			</div>
+		
+
+
+			<div id="menu_item_color_b" class="menu_item_container" tabindex="1">
+
+				<a href="" class="menu_deploy">
+		
+					<h1 class="menu_txt">ABOUT</h1>
+
+				</a>
+
+			</div>
+		
+
+		
+			<div id="menu_item_color_c" class="menu_item_container" tabindex="1">
+
+				<a href="animacio.html" class="menu_deploy">
+		
+					<h1 class="menu_txt">ANIMACIO</h1>
+
+				</a>
+
+			</div>
+			
+		</div>
+
+
+		</header>
+
+
+
+
+
+
+	<!--div per colocar la imatge que ocupi tota la pantalla, dintre del CSS es veu com esta fet><!-->
 
 		<div class="inici" id="img_inici_1">
 			
@@ -25,29 +87,46 @@
 
 
 
-				<div id="containers" id="cont_img">
+			<div id="containers">
 			
-				<div>
+				<div  class="zoom" tabindex="1">
 
-					<div class="pagines" id="img_pag_1" href="pages/projectes_destacats.html">
+					<div id="img_pag_1" class="img_bg_color">
 
+						<div class="pagines">
 
-						<p class="txt_img">explicacio de la imatgeporrorooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooororororoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooorororor blablalblablalblalbalablalbalblablablbalblbalblbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbablalblbablablablabalblblabalblblabalbalbalbalbalbalbalbalbalbalbalba</p>
+							<div>
 
-				
+								<p class="txt_img">
+								ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooorororor blablalblablalblalbalablalbalblablablbalblbalblbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbablalblbablablablabalblblabalblblabalbalbalbalbalbalbalbalbalbalbalba
+								</p>
 
+							</div>
+
+						</div>
+						
 					</div>
 
 				</div>
 
 
-				<div>
 
-					<div class="pagines" id="img_pag_2" href="pages/animacio.html">
+				<div class="zoom" tabindex="1">
+					
+					<div id="img_pag_2" class="img_bg_color">
 
-						<h1 class="txt">Animacio</h1>
+						<div class="pagines">
 
+							<div>
 
+								<p class="txt_img">
+								ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooorororor blablalblablalblalbalablalbalblablablbalblbalblbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbalbablalblbablablablabalblblabalblblabalbalbalbalbalbalbalbalbalbalbalba
+								</p>
+
+							</div>
+
+						</div>
+						
 					</div>
 
 				</div>
@@ -60,7 +139,7 @@
 			
 				<div>
 
-					<div class="pagines" id="img_pag_1" href="pages/projectes_destacats.html">
+					<div class="pagines" id="img_pag_1" >
 
 						<h1 class="txt" class="txt_img">Projectes Destacats</h1>
 
@@ -73,9 +152,9 @@
 
 				<div>
 
-					<div class="pagines" id="img_pag_2" href="pages/animacio.html">
+					<div class="pagines" id="img_pag_2">
 
-						<h1 class="txt">Animacio</h1>
+						<h1 class="txt">IMG</h1>
 
 
 					</div>
@@ -90,39 +169,14 @@
 
 		<!--div per colocar la imatge que ocupi tota la pantalla, dintre del CSS es veu com esta fet><!-->
 		
-		<div class="inici" id="img_inici_1">
-
 	
-		</div>
-
-		<!--div per colocar la imatge que ocupi tota la pantalla, dintre del CSS es veu com esta fet><!-->
-
-
-		<div id="containers_images">
-
-			<div class="cont_img">
-
-				<h1>img?</h1>
-
-			</div>
-
-		</div>
-
-
-
-		<div id ="containers_images">
 			
-			<div class="cont_img">
+			<div class="mdl_view">
 				
-				<h1>img?</h1>
+				<model-viewer src="../models/mona.glb" camera-controls disable-zoom id="view"></model-viewer>
 
 			</div>
-
 			
-
-		</div>
-
-
 
 
 		
