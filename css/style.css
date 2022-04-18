@@ -7,6 +7,16 @@ body
 
 }
 
+ul
+{
+    list-style-type: none;
+}
+a
+{
+
+    text-decoration: none;
+}
+
 
 
 /***********************************************************************************/
@@ -39,6 +49,7 @@ body
     position: fixed;
     padding-bottom: 25px;
     flex-direction: row-reverse;
+     font-family: 'Quicksand';
 
 
 
@@ -61,19 +72,19 @@ body
 #menu_item_color_a
 {
 
-    background-color: black;
+    background-color: #ED6A5E;
 
 }
 #menu_item_color_b
 {
 
-    background-color: purple;
+    background-color: #4CE0B3;
 
 }
 #menu_item_color_c
 {
 
-    background-color: red;
+    background-color: #49B6FF;
 
 }
 
@@ -84,7 +95,8 @@ body
     transform: translate(0px, -250px);
     transition-duration: 0.4s;
     justify-content: center;
-    width: 200px;
+    width: 232px;
+    border-bottom-right-radius: 35px;
 
 
 }
@@ -118,7 +130,7 @@ body
     align-items: center;
     flex-flow: wrap;
 
-    width: 100px;
+    width: 150px;
 
     text-decoration: none;
     height: 150px;
@@ -133,7 +145,7 @@ body
 {
     display: flex;
     
-	font-family: Amatic SC;
+      font-family: 'Quicksand';
 	color: whitesmoke;
 
     
@@ -152,10 +164,12 @@ body
     flex-flow: wrap;
 
 
-
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+
+
 
 
 
@@ -214,7 +228,7 @@ body
 
 
 
-    background-color:tomato;
+    background-color:black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -228,7 +242,7 @@ body
 
 #img_pag_1
 {
-    background-image: url(../images/moneda.png);
+    background-image: url(../images/zelda_wide.png);
 
 
 }
@@ -246,6 +260,58 @@ body
 
 }
 
+#img_pag_4
+{
+    background-image: url(../images/ak.png);
+
+}
+
+#img_pag_5
+{
+    background-image: url(../images/poma.gif);
+
+}
+#img_pag_6
+{
+    background-image: url(../images/friedrich.png);
+
+}
+
+#img_pag_7
+{
+    background-image: url(../images/friedrich_before.png);
+
+}
+
+#img_pag_8
+{
+    background-image: url(../images/vfx.jpg);
+
+}
+
+#img_pag_9
+{
+    background-image: url(../images/casa_1.png);
+
+}
+
+#img_pag_10
+{
+    background-image: url(../images/casa_2.png);
+
+}
+
+#img_pag_11
+{
+    background-image: url(../images/casa_interior.png);
+
+}
+
+#img_pag_12
+{
+    background-image: url(../images/casa_aeria.png);
+
+}
 /****************************************************/
 /****************************************************/
 
@@ -400,6 +466,83 @@ body
 
 
 
+        /**********/
+        /*SOBRE MI*/
+        /**********/
+
+
+
+
+.containers_lletres
+{
+
+    display: flex;
+   
+    justify-content: center;
+    padding: 25px;
+    font-family: 'Quicksand';
+    flex-direction: column;
+
+
+}
+
+.container_lletra
+{
+    width: 50vw;
+    align-self: center;
+    margin: 12px;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    color: whitesmoke;
+    padding: 12px;
+
+
+
+
+}
+
+.container_text
+{
+
+    padding: 12px;
+
+}
+
+#container_title
+{
+    text-align: center;
+
+}
+
+#containers_direction
+{
+
+    flex-direction: row;
+    padding: 0px;
+    padding-left: 25vw;
+    padding-right: 25vw ;
+    width: auto;
+}
+
+
+
+
+
+/********/
+/*FOOTER*/
+/********/
+
+
+#no_bg
+{
+
+    background-color: transparent;
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -418,7 +561,7 @@ body
 /*MEDIA QUERIES*/
 /***************/
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 600px)
 {
 
 
@@ -444,10 +587,13 @@ body
     {
 
    
-    height: 100px;
-    transform: translate(200px, 0px);
+    height: 130px;
+    transform: translate(220px, 0px);
     padding-left: 30px;
     align-items: center;
+     border-bottom-right-radius: 0px;
+
+     border-bottom-left-radius: 35px;
     
 
 
@@ -478,9 +624,19 @@ body
 
     .menu_deploy
     {
-        height: 75px;
+        height: 100px;
+        width: 200px;
         padding: 0px;
 
+    }
+
+    .zoom:focus 
+    {
+
+    transform: none;
+
+
+   
     }
 
 }
@@ -510,6 +666,20 @@ body
         height: 75vh;
        
     }
+
+    .pagines:active .txt
+    {
+    opacity: 100%;
+
+    }
+
+    .zoom:focus .pagines
+    {
+
+    opacity: 100%;
+    }
+
+
 
 
 
@@ -552,6 +722,13 @@ body
     #containers::-webkit-scrollbar
     {
         display: none;
+
+    }
+
+
+    .container_lletra
+    {
+        width: 75vw;
 
     }
 
