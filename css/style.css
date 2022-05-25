@@ -226,13 +226,10 @@ a
 .img_bg_color
 {
 
-
-
     background-color:black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-
 
 }
 
@@ -310,6 +307,56 @@ a
 #img_pag_12
 {
     background-image: url(../images/casa_aeria.png);
+
+}
+
+#img_pag_13
+{
+
+    background-image: url(../images/helmet_fixed.png);
+
+}
+
+#img_pag_14
+{
+
+background-image: url(../images/eyebot_solo.png);
+
+}
+
+#img_pag_15
+{
+
+background-image: url(../images/hat_solo.png);
+
+}
+
+#img_pag_16
+{
+
+background-image: url(../images/ak_solo_1.png);
+
+}
+
+
+#img_pag_17
+{
+
+background-image: url(../images/ak_solo_2.png);
+
+}
+
+#img_pag_18
+{
+
+background-image: url(../images/rob_diffuse.png);
+
+}
+
+#img_pag_19
+{
+
+background-image: url(../images/rob_wire.png);
 
 }
 /****************************************************/
@@ -429,14 +476,13 @@ a
 #img_inici_1
 {
 
-    background-image: url(../images/moneda.png);
+    background-image: url(../images/garden.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 
 
 }
-
 
 
 
@@ -449,7 +495,11 @@ a
     padding: 0px;
     flex-flow: inherit;
     width: 100%;
-    background-color: #ea3546;
+    background-color: black;
+
+    padding-top: 20px;
+
+
 
 }
 
@@ -740,7 +790,135 @@ a
 
 
 
+/***************/
+/**Scroll_IMG **/
+/***************/
 
+
+.scroll_img
+{
+
+  display: flex;
+    
+      font-family: 'Quicksand';
+    color: whitesmoke;
+
+    
+    justify-self: center;
+
+    height: 35vh;
+
+
+   
+    
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+
+
+
+}
+
+
+.img_scroll_father
+{
+
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
+
+#img_scroll_1
+{
+    background-image: url(../images/eye_bot_dif.png);
+    background-color: black; 
+
+
+}
+
+#img_scroll_2
+{
+    
+  background-image: url(../images/eye_bot_wire.png);
+     background-color: black; 
+  
+
+}
+#img_scroll_3
+{
+  background-image: url(../images/eye_bot_dif.png);
+   background-color: black; 
+
+
+
+
+}
+
+#img_scroll_4
+{
+
+        background-image: url(../images/car_wire.png);
+    background-color: black; 
+
+
+}
+
+#img_scroll_5
+{
+
+        background-image: url(../images/car_dif.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_6
+{
+
+        background-image: url(../images/car_specular.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_7
+{
+
+        background-image: url(../images/helmet_wire.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_8
+{
+
+        background-image: url(../images/helmet_dif.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_9
+{
+
+        background-image: url(../images/helmet_spec.png);
+    background-color: black; 
+
+    
+}
+
+
+
+/***************/
+/**Scroll_IMG **/
+/***************/
 
 
 

@@ -1,0 +1,288 @@
+body
+{
+	 
+	background-color: 202020;
+    overflow-x: hidden;
+
+	
+
+
+}
+/***********************************************************************************/
+/*                              PAGINA PRINCIPAL                                   */
+/***********************************************************************************/
+
+
+/*PER FER QUE LA IMATGE OCUPI TOT + FER QUE LA IMATGE SEMPRE SIGUI VISIBLE AL 100% */
+
+
+.inici
+{
+    display: flex;
+    
+	font-family: Amatic SC;
+	color: whitesmoke;
+
+    
+    justify-self: center;
+
+    height: 100%;
+
+
+    background-color: ffcb77; /*per si no apareix la imatge afageixo color*/
+    padding: 12px;
+
+
+    
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+
+
+}
+
+/*LLIGAT AMB LA CLASSE DE INICI*/
+
+#lobby_img
+{
+
+    background-image: url(../images/bg.png);
+  
+
+}
+
+
+/*FLEX BOX PER ELS ELEMENTS QUE HI HA A SOTA DE L'INICI I QUE SIGUIN SELECCIONABLES*/
+
+
+.pagines
+{
+
+    display: flex;
+    font-family: 'Quicksand';
+    margin: 25px auto;
+    padding: 25px;
+
+    max-width: 320px;
+    min-width: 500px;
+
+    height: 500px;
+    border: 1px solid black;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+
+}
+
+
+.img_bg_color
+{
+    background-color:tomato;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+}
+
+/****************************************************/
+/*PER CANVIAR LES IMATGES DE CADA UN DE LES FLEX BOX*/
+/****************************************************/
+
+#img_pag_1
+{
+    background-image: url(../images/moneda.png);
+
+}
+
+#img_pag_2
+{
+    background-image: url(../images/bg.png);
+
+ 
+}
+
+#img_pag_3
+{
+    background-image: url(../images/moneda.png);
+
+}
+
+/****************************************************/
+/****************************************************/
+
+
+
+/*quan es fa el hover el BG enfosqueix*/
+
+#img_pag_1:hover
+{
+    transform: scale(1.2);
+
+}
+
+.pagines:active
+{
+    background-color:rgba(0, 0, 0, 0.6);
+    
+    transition-duration: 0.4s;
+
+
+
+}
+
+
+/*quan es fa un hover apareix el text*/
+
+.pagines:active .txt_img
+{
+
+    transition-duration: 0.4s;
+
+    opacity: 100%;
+
+}
+
+/*estat inicial del text que apareix a sobre de la imatge*/
+.txt_img
+{
+    opacity: 0%;
+
+
+    max-width: 500px;
+    min-width: 320px;
+
+    height: 300px;
+    word-break: break-all;
+
+}
+
+
+/****************************/
+
+
+
+#containers
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 50px;
+    flex-grow: 1;
+
+
+}
+
+
+
+
+
+
+
+/************************************/
+/* IMATGES PER A LA SEGUENT PAGINA  */
+/************************************/
+
+
+
+
+/*IMATGE PRINCIPAL DE LA 2NA PAGINA*/
+
+#img_inici_1
+{
+
+    background-image: url(../images/moneda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+}
+
+
+
+
+
+
+
+.menu_bar
+{
+    
+    display: flex;
+    width: 99%;
+
+    justify-self: center;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: fixed;
+
+
+
+}
+
+
+.menu_button
+{
+
+    display: flex;
+    
+    font-family: Amatic SC;
+    color: whitesmoke;
+
+
+    background-color: rgba(255, 162, 20, 0.35);
+    padding: 12px;
+
+
+   
+    flex-flow: wrap;
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
