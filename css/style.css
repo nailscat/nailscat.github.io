@@ -360,6 +360,31 @@ background-image: url(../images/rob_wire.png);
 
 }
 
+#img_pag_20
+{
+
+background-image: url(../images/shikimoris.jpg);
+
+}
+
+
+
+#img_pag_21
+{
+
+background-image: url(../images/ps_k.jpg);
+
+
+}
+
+#img_pag_22
+{
+
+background-image: url(../images/genshin_3.png);
+
+
+}
+
 
 /****************************************************/
 /****************************************************/
@@ -478,7 +503,7 @@ background-image: url(../images/rob_wire.png);
 #img_inici_1
 {
 
-    background-image: url(../images/garden.png);
+    background-image: url(../images/garden_ok.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -605,6 +630,148 @@ background-image: url(../images/rob_wire.png);
 
 
 
+/***************/
+/**Scroll_IMG **/
+/***************/
+
+
+.scroll_img
+{
+
+  display: flex;
+    
+      font-family: 'Quicksand';
+    color: whitesmoke;
+
+    
+    justify-self: center;
+
+    height: 35vh;
+
+
+   
+    
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+
+
+
+
+}
+
+
+.img_scroll_father
+{
+
+ padding-top: 25px;
+ padding-bottom: 25px;
+
+
+
+}
+
+#img_scroll_1
+{
+    background-image: url(../images/eye_bot_dif.png);
+    background-color: black; 
+
+
+}
+
+#img_scroll_2
+{
+    
+  background-image: url(../images/eye_bot_wire.png);
+     background-color: black; 
+  
+
+}
+#img_scroll_3
+{
+  background-image: url(../images/eye_bot_dif.png);
+   background-color: black; 
+
+
+
+
+}
+
+#img_scroll_4
+{
+
+        background-image: url(../images/car_wire.png);
+    background-color: black; 
+
+
+
+
+
+}
+
+#img_scroll_5
+{
+
+        background-image: url(../images/car_dif.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_6
+{
+
+        background-image: url(../images/car_specular.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_7
+{
+
+        background-image: url(../images/helmet_wire.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_8
+{
+
+        background-image: url(../images/helmet_dif.png);
+    background-color: black; 
+
+    
+}
+
+#img_scroll_9
+{
+
+        background-image: url(../images/helmet_spec.png);
+    background-color: black; 
+
+    
+}
+
+
+
+/***************/
+/**Scroll_IMG **/
+/***************/
+
+
+
+
+
+
 
 
 
@@ -696,6 +863,12 @@ background-image: url(../images/rob_wire.png);
 
 @media only screen and (max-width: 800px)
 {
+
+    .scroll_img
+    {
+        height: 10vh;
+
+    }
     .pagines
     {
 
@@ -741,6 +914,12 @@ background-image: url(../images/rob_wire.png);
 
 @media only screen and (max-width: 1280px)
 {
+
+    .scroll_img
+    {
+        height: 25vh;
+
+    }
 
     .pagines
     {
@@ -789,139 +968,6 @@ background-image: url(../images/rob_wire.png);
 /***************/
 /*MEDIA QUERIES*/
 /***************/
-
-
-
-/***************/
-/**Scroll_IMG **/
-/***************/
-
-
-.scroll_img
-{
-
-  display: flex;
-    
-      font-family: 'Quicksand';
-    color: whitesmoke;
-
-    
-    justify-self: center;
-
-    height: 35vh;
-
-
-   
-    
-    justify-content: center;
-    align-items: center;
-    flex-flow: wrap;
-
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-
-
-
-
-}
-
-
-.img_scroll_father
-{
-
- padding-top: 25px;
- padding-bottom: 25px;
-}
-
-#img_scroll_1
-{
-    background-image: url(../images/eye_bot_dif.png);
-    background-color: black; 
-
-
-}
-
-#img_scroll_2
-{
-    
-  background-image: url(../images/eye_bot_wire.png);
-     background-color: black; 
-  
-
-}
-#img_scroll_3
-{
-  background-image: url(../images/eye_bot_dif.png);
-   background-color: black; 
-
-
-
-
-}
-
-#img_scroll_4
-{
-
-        background-image: url(../images/car_wire.png);
-    background-color: black; 
-
-
-}
-
-#img_scroll_5
-{
-
-        background-image: url(../images/car_dif.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_6
-{
-
-        background-image: url(../images/car_specular.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_7
-{
-
-        background-image: url(../images/helmet_wire.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_8
-{
-
-        background-image: url(../images/helmet_dif.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_9
-{
-
-        background-image: url(../images/helmet_spec.png);
-    background-color: black; 
-
-    
-}
-
-
-
-/***************/
-/**Scroll_IMG **/
-/***************/
-
 
 
 
