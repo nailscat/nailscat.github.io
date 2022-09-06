@@ -19,6 +19,8 @@ a
 
 
 
+
+
 /***********************************************************************************/
 /*                              PAGINA PRINCIPAL                                   */
 /***********************************************************************************/
@@ -154,7 +156,7 @@ a
     height: 100vh;
 
 
-    background-color: #1b998b; /*per si no apareix la imatge afageixo color*/
+    background-color:#98d6e6; /*per si no apareix la imatge afageixo color*/
     
 
 
@@ -171,7 +173,12 @@ a
 
 
 
+}
 
+#mdl_size
+{
+    height: 750px;
+    width: 1500px;
 
 
 }
@@ -379,11 +386,158 @@ background-image: url(../images/ps_k.jpg);
 
 #img_pag_22
 {
-
 background-image: url(../images/genshin_3.png);
 
 
 }
+
+#img_pag_23
+{
+background-image: url(../images/anya_close_1.png);
+
+
+}
+
+#img_pag_24
+{
+background-image: url(../images/anya_wire.png);
+background-position: top;
+
+}
+
+#img_pag_25
+{
+background-image: url(../images/cinder_gold_1.png);
+
+
+}
+
+#img_pag_26
+{
+background-image: url(../images/anya_close_1.png);
+
+
+}
+
+#img_pag_27
+{
+background-image: url(../images/anya_close_2.png);
+
+
+}
+
+
+#img_pag_28
+{
+background-image: url(../images/fons_1.png);
+
+
+}
+
+#img_pag_29
+{
+background-image: url(../images/projects.png);
+
+
+}
+
+#img_pag_30
+{
+background-image: url(../images/projects_2.png);
+
+
+}
+
+#img_pag_31
+{
+background-image: url(../images/zelda_trs.png);
+
+
+}
+
+#img_pag_32
+{
+background-image: url(../images/zelda_new.png);
+
+
+}
+
+#img_pag_33
+{
+background-image: url(../images/helmeto.png);
+
+
+}
+
+
+
+
+
+
+
+#img_pag_35
+{
+background-image: url(../images/18_desktop.png);
+
+
+}
+#img_pag_36
+{
+background-image: url(../images/37_desktop.png);
+
+
+}
+
+#img_pag_37
+{
+background-image: url(../images/health_bar.png);
+
+
+}
+
+#img_pag_38
+{
+background-image: url(../images/bg_blue.png);
+
+
+}
+#img_pag_39
+{
+background-image: url(../images/bg_red.png);
+
+
+}
+
+#img_pag_40
+{
+background-image: url(../images/bg_green.png);
+
+
+}
+
+#img_pag_41
+{
+background-image: url(../images/swords.png);
+
+
+}
+
+
+
+#img_pag_42
+{
+background-image: url(../images/nailscat_banner.png);
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /****************************************************/
@@ -561,7 +715,10 @@ background-image: url(../images/genshin_3.png);
     flex-direction: column;
 
 
+
 }
+
+
 
 .container_lletra
 {
@@ -572,16 +729,18 @@ background-image: url(../images/genshin_3.png);
     border-radius: 25px;
     color: whitesmoke;
     padding: 12px;
-
-
-
+ 
 
 }
+
+
 
 .container_text
 {
 
     padding: 12px;
+    font-family: 'Quicksand';
+
 
 }
 
@@ -615,157 +774,545 @@ background-image: url(../images/genshin_3.png);
 
     background-color: transparent;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***************/
-/**Scroll_IMG **/
-/***************/
-
-
-.scroll_img
-{
-
-  display: flex;
-    
-      font-family: 'Quicksand';
-    color: whitesmoke;
-
-    
-    justify-self: center;
-
-    height: 35vh;
 
 
    
-    
-    justify-content: center;
-    align-items: center;
-    flex-flow: wrap;
+}
+
+#no_bg_custom
+{
+
+    background-color: transparent;
+    text-align: center;
 
   
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-
-
-
-
-
+    align-self: flex-end;
 }
 
 
-.img_scroll_father
-{
 
- padding-top: 25px;
- padding-bottom: 25px;
-
-
-
-}
-
-#img_scroll_1
-{
-    background-image: url(../images/eye_bot_dif.png);
-    background-color: black; 
-
-
-}
-
-#img_scroll_2
-{
-    
-  background-image: url(../images/eye_bot_wire.png);
-     background-color: black; 
-  
-
-}
-#img_scroll_3
-{
-  background-image: url(../images/eye_bot_dif.png);
-   background-color: black; 
-
-
-
-
-}
-
-#img_scroll_4
-{
-
-        background-image: url(../images/car_wire.png);
-    background-color: black; 
-
-
-
-
-
-}
-
-#img_scroll_5
-{
-
-        background-image: url(../images/car_dif.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_6
-{
-
-        background-image: url(../images/car_specular.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_7
-{
-
-        background-image: url(../images/helmet_wire.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_8
-{
-
-        background-image: url(../images/helmet_dif.png);
-    background-color: black; 
-
-    
-}
-
-#img_scroll_9
-{
-
-        background-image: url(../images/helmet_spec.png);
-    background-color: black; 
-
-    
-}
 
 
 
 /***************/
 /**Scroll_IMG **/
 /***************/
+
+
+
+
+
+/***************/
+/**TIME LINE____LIGHT BOX **/
+/***************/
+
+
+
+#containers_time_line
+{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+.pagines_time_line
+{
+
+    display: flex;
+    font-family: 'Quicksand';
+   
+    padding: 25px;
+
+    max-width: 500px;
+    max-width: 500px;
+
+    min-width: 100px;
+    min-height: 100px;
+
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+
+
+    flex-direction: row;
+
+
+}
+
+
+
+.lightbox_custom_images
+{
+
+
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************/
+/**ALTERNATE TIMELINEALTERNATE TIMELINEALTERNATE TIMELINEALTERNATE TIMELINEALTERNATE TIMELINEALTERNATE TIMELINE **/
+/***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagines_time_line_animation
+{
+
+    display: flex;
+    font-family: 'Quicksand';
+   
+    padding: 25px;
+
+
+    min-width: 100px;
+    min-height: 100px;
+    flex-shrink: ;
+
+    border: 1px solid black;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+
+    backface-visibility: hidden;
+
+
+    flex-direction: row;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+   
+
+}
+
+
+
+
+
+#no_border
+{
+
+    border: transparent;
+    background-color: transparent;
+        text-align: center;
+
+
+}
+
+
+
+
+
+#car_main
+{
+
+    background-image: url(../images/car_specular.png);
+
+}
+
+#anya_main
+{
+    background-image: url(../images/anya_color.png);    
+}
+
+#eyebot_main
+{
+    background-image: url(../images/eye_bot_dif.png);    
+}
+
+#helmet_main
+{
+    background-image: url(../images/helmet_dif.png);    
+}
+
+#knight_main
+{
+    background-image: url(../images/knight_color.png);    
+}
+
+#stairs_main
+{
+    background-image: url(../images/stairs_16.png);    
+}
+
+
+#mona_main
+{
+    background-image: url(../images/mona_color.png);    
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#timeline_animation_car
+{
+    width: 1000px;
+    height: 350px;
+
+    animation: images_car infinite 0s;
+    animation-duration: 7s;
+}
+
+
+
+@keyframes  images_car{
+
+  0% {
+   
+    background-image: url(../images/car_wire.png);
+    
+  }
+
+  25%
+  {
+    background-image: url(../images/car_dif.png);
+  }
+  50% {
+    
+    background-image: url(../images/car_specular.png);
+    
+  }
+  100% {
+     background-image: url(../images/car_wire.png);
+     
+  }  
+}
+
+
+
+
+#timeline_animation_anya
+{
+    animation: images_anya infinite 0s;
+    animation-duration: 3s;
+
+    width: 1000px;
+    height: 750px;
+
+}
+
+
+
+@keyframes  images_anya{
+
+  0% 
+  {
+    background-image: url(../images/anya_color.png); 
+  }
+
+  25%
+  {
+    background-image: url(../images/anya_wire.png);
+  }
+  50% 
+  {  
+    background-image: url(../images/anya_wire.png); 
+  }
+  100% 
+  {
+     background-image: url(../images/anya_color.png); 
+  }  
+}
+
+
+
+
+#timeline_animation_eyebot
+{
+    animation: images_eyebot infinite 0s;
+    animation-duration: 3s;
+
+    width: 1000px;
+    height: 400px;
+
+}
+
+
+
+@keyframes  images_eyebot{
+
+  0% 
+  {
+    background-image: url(../images/eye_bot_dif.png);
+  }
+
+  25%
+  {
+    background-image: url(../images/eye_bot_wire.png);
+  }
+  50%
+{  
+    background-image: url(../images/eye_bot_wire.png);
+  }
+  100% 
+  {
+     background-image: url(../images/eye_bot_dif.png);  
+  }  
+}
+
+
+
+
+
+
+
+#timeline_animation_helmet
+{
+    animation: images_helmet infinite 0s;
+    animation-duration: 5s;
+
+    width: 1000px;
+    height: 450px;
+
+}
+
+
+
+@keyframes  images_helmet{
+
+  0% 
+  {
+    background-image: url(../images/helmet_dif.png);
+  }
+
+  25%
+  {
+    background-image: url(../images/helmet_wire.png);
+  }
+  50%
+{  
+    background-image: url(../images/helmet_spec.png);
+  }
+  100% 
+  {
+     background-image: url(../images/helmet_dif.png);  
+  }  
+}
+
+
+
+
+
+
+#timeline_animation_knight
+{
+    animation: images_knight infinite 0s;
+    animation-duration: 5s;
+
+    width: 1000px;
+    height: 450px;
+
+}
+
+
+
+@keyframes  images_knight{
+
+  0% 
+  {
+    background-image: url(../images/knight_color.png);
+  }
+
+  25%
+  {
+    background-image: url(../images/knight_noncolor.png);
+  }
+  50%
+{  
+    background-image: url(../images/knight_wire.png);
+  }
+  100% 
+  {
+     background-image: url(../images/knight_color.png);  
+  }  
+}
+
+
+
+
+
+
+
+
+
+#timeline_animation_stairs
+{
+    animation: images_stairs infinite 0s;
+    animation-duration: 15s;
+        animation-timing-function: step-start;
+
+    width: 1000px;
+    height: 500px;
+
+}
+
+
+
+@keyframes  images_stairs{
+
+  0% 
+  {
+    background-image: url(../images/cinder_5.png);
+
+  }
+
+  25%
+  {
+    background-image: url(../images/cinder_8.png);
+  }
+  50%
+{  
+    background-image: url(../images/cinder_16.png);
+  }
+  100% 
+  {
+     background-image: url(../images/cinder_5.png);  
+  }  
+}
+
+
+
+
+#timeline_animation_mona
+{
+    animation: images_mona infinite 0s;
+    animation-duration: 5s;
+        
+
+    width: 1000px;
+    height: 500px;
+
+}
+
+
+
+@keyframes  images_mona{
+
+  0% 
+  {
+    background-image: url(../images/mona_color.png);
+
+  }
+
+  25%
+  {
+    background-image: url(../images/mona_noncolor.png);
+  }
+  50%
+{  
+    background-image: url(../images/mona_wire.png);
+  }
+  100% 
+  {
+     background-image: url(../images/mona_color.png);  
+  }  
+}
+
+
+
+
+
+
+
+#separation_top
+{
+   
+    padding-top: 200px;
+
+}
+#separation_bottom
+{
+
+     padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -780,6 +1327,13 @@ background-image: url(../images/genshin_3.png);
 /*MEDIA QUERIES*/
 /***************/
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px)
 {
 
@@ -789,15 +1343,10 @@ background-image: url(../images/genshin_3.png);
     
     display: flex;
 
-  
-   
-
 
     position: fixed;
     padding-bottom: 25px;
     flex-direction: row-reverse;
-
-
 
 
     }
@@ -814,8 +1363,6 @@ background-image: url(../images/genshin_3.png);
 
      border-bottom-left-radius: 35px;
     
-
-
     }
 
 
@@ -853,12 +1400,103 @@ background-image: url(../images/genshin_3.png);
     {
 
     transform: none;
-
-
    
     }
 
+
+
+
+    #timeline_animation_car
+    {
+    width: 500px;
+    height: 350px;
+
+    animation: images_car infinite 0s;
+    animation-duration: 7s;
+    }
+
+
+    #timeline_animation_knight
+    {
+    animation: images_knight infinite 0s;
+    animation-duration: 5s;
+
+    width: 500px;
+    height: 350px;
+
+    }
+
+    #timeline_animation_mona
+    {
+         width: 500px;
+    height: 350px;
+
+
+    }
+
+#timeline_animation_helmet
+{
+    animation: images_helmet infinite 0s;
+    animation-duration: 5s;
+
+    width: 500px;
+    height: 350px;
+
 }
+
+#timeline_animation_eyebot
+{
+    animation: images_eyebot infinite 0s;
+    animation-duration: 3s;
+
+    width: 500px;
+    height: 350px;
+
+}
+
+#timeline_animation_anya
+{
+    animation: images_anya infinite 0s;
+    animation-duration: 3s;
+
+    width: 500px;
+    height: 500px;
+
+}
+
+#timeline_animation_stairs
+{
+width: 500px;
+    height: 500px;
+
+
+}
+
+
+.pagines_time_line
+{
+    min-height: 0px;
+    height: 0px;
+    width: max-content;
+}
+
+#containers_time_line
+{
+
+    justify-content: start;
+    overflow: hidden;
+}
+
+
+
+
+
+
+}
+
+
+
+
 
 
 @media only screen and (max-width: 800px)
@@ -903,6 +1541,19 @@ background-image: url(../images/genshin_3.png);
 
     opacity: 100%;
     }
+
+
+    .pagines_time_line
+{
+    min-height: 100px;
+    height: 100px;
+
+  
+
+}
+
+
+
 
 
 
@@ -963,7 +1614,88 @@ background-image: url(../images/genshin_3.png);
 
     }
 
+    .pagines_time_line
+{
+    min-height: 100px;
+    height: 100px;
+
+  
+
 }
+
+
+#containers_time_line
+{
+    /*flex-wrap: nowrap;*/
+    justify-content: center;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 800px)
+{
+
+    #containers_time_line
+{
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+
+}
+
+
+#img_pag_42
+{
+background-image: url(../images/nailscat_banner_smol.png);
+
+}
+
+
+#img_pag_33
+{
+background-image: url(../images/helmeto_anya.png);
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px)
+{
+      #timeline_animation_car, #timeline_animation_knight, #timeline_animation_helmet, #timeline_animation_eyebot,   
+      #timeline_animation_stairs, #timeline_animation_mona
+
+
+      {
+            width: 350px;
+            height: 150px;
+
+      }
+
+        #timeline_animation_anya
+
+        {
+            width: 350px;
+            height: 250px;
+
+        }
+
+
+     
+
+}
+
 
 /***************/
 /*MEDIA QUERIES*/
